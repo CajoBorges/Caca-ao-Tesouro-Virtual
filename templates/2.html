@@ -1,13 +1,8 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 2 | Caça ao tesouro</title>
-    <link rel="stylesheet" href="/static/style2.css">
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-</head>
-<body>
-    <p>Obrigado. Funcionou e a porta abriu!</p>
+{% extends 'base.html' %}
+{% block title %}Passo 2{% endblock %}
+{% block content %}
+    
+    <p>Obrigado{% if name %}, {{ name }}{% endif %}. Funcionou e a porta abriu!</p>
     <p>Agora que entramos em casa encontrei duas portas. Na porta da esquerda diz WC. A da direita está trancada com um cadeado de 3 dígitos.</p>
     <p>Entrei na porta da esquerda e vi uma sanita. Na parede tinha frases escritas. Vejam:</p>
     <img src="/static/Frases WC passo 2.png" alt="">
@@ -25,5 +20,4 @@
     <p></p>
     <a href="/935"><button>935</button></a>
     <p></p>
-</body>
-</html>
+{% endblock %}
