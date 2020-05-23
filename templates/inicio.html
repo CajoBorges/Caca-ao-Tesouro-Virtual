@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 1 | Caça ao tesouro</title>
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-    <link rel="stylesheet" href="/static/style2.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}Passo 1{% endblock %}
+{% block content %}
+    
     <p>Obrigado por me ajudares!</p>
     <p>O mapa levou-me a uma rua de Lisboa. Era uma casa. A casa estava abandonada e a porta era fácil de abrir.</p>
     <p>Mais à frente tinha outra porta de ferro presa por um cadeado de 3 dígitos. No chão estavam 3 CDs e na porta estava colado um poster com uma imagem de uma prateleira.</p>
@@ -43,5 +38,4 @@
     <p></p>
     <a href="/659"><button>659</button></a>
     <p></p>
-</body>
-</html>
+{% endblock %}

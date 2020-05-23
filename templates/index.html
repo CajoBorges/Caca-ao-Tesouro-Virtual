@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início | Caça ao tesouro</title>
-    <link rel="stylesheet" href="/static/style.css">
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}Início{% endblock %}
+{% block content %}
+    
     <h1><img src="/static/Caça ao tesouro icone.jpg" alt="" width=80 height=60> Caça ao Tesouro Virtual</h1>
     <h2>Bem vindos à caça ao tesouro virtual!!!🔎</h2>
     <div style="color: rgb(255, 25, 9);">
@@ -22,5 +17,4 @@
     <p>Estão prontos? Cliquem em baixo para iniciar.</p>
     </div>
     <a href="/inicio"><button>▶Iniciar</button></a>
-</body>
-</html>
+{% endblock %}

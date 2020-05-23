@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 8 | Caça ao tesouro</title>
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-    <link rel="stylesheet" href="/static/style2.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}Passo 8{% endblock %}
+{% block content %}
+    
     <h1>Obrigado colega! Estás a ajudar-me imenso!</h1>
     <p>A porta da esquerda abriu-se. Lá dentro estava uma carta que não consegui ler e um cofre de 4 dígitos.</p>
     <img src="/static/carta que n se le.png" alt="">
@@ -23,5 +18,4 @@
     <a href="/7650"><button>7 650</button></a>
     <p></p>
     <a href="/1650"><button>1 650</button></a>
-</body>
-</html>
+{% endblock %}

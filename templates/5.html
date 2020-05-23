@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 5 | Caça ao tesouro</title>
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-    <link rel="stylesheet" href="/static/style2.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}Passo 5{% endblock %}
+{% block content %}
+    
     <h1>Obrigado pela tua ajuda!</h1>
     <p>Dentro do cofre estava uma PEN. Abri no computador e tinha um ficheiro PDF bloqueado com uma Palavra-Passe. No cofre estava escrito:</p>
     <img src="/static/passo 5.png" alt="">
@@ -20,6 +15,4 @@
     <a href="/passo"><button>Passo</button></a>
     <p></p>
     <a href="/password"><button>Password</button></a>
-    <p></p>
-</body>
-</html>
+{% endblock %}

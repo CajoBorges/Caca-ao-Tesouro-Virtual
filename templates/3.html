@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 3 | Caça ao tesouro</title>
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-    <link rel="stylesheet" href="/static/style2.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}Passo 3{% endblock %}
+{% block content %}
+    
     <p>Obrigado colega! A porta abriu!</p>
     <p>Agora estou numa sala abandonada, com as paredes envelhecidas, um sofá velho, um armário partido, uma mesa de madeira antiga e uma cadeira sem uma perna... vamos ao que interessa!</p>
     <p>Estava uma cassete em cima da mesa velha. Vi a cassete e tinha uma foto de uma parede com números por esta ordem:</p>
@@ -32,5 +27,4 @@
     <p></p>
     <a href="/530"><button>530</button></a>
     <p></p>
-</body>
-</html>
+{% endblock %}

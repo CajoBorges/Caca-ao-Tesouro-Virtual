@@ -1,12 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passo 9 | Caça ao tesouro</title>
-    <link REL="SHORTCUT ICON" href="/static/Caça ao tesouro icone.jpg">
-    <link rel="stylesheet" href="/static/style2.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}Passo 9{% endblock %}
+{% block content %}
+    
     <h1>Obrigado colega!</h1>
     <p>Dentro do cofre está um papel com um código morse. Ajuda-me!</p>
     <p><img src="/static/codigo-morse.jpg" alt="">
@@ -27,5 +22,4 @@
     <a href="/845"><button>845</button></a>
     <p></p>
     <a href="/240"><button>240</button></a>
-</body>
-</html>
+{% endblock %}
