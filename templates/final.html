@@ -3,7 +3,7 @@
 {% block content %}
     
     <h1>A descoberta</h1>
-    <p>Obrigado! Ajudaste-me imenso nesta busca!</p>
+    <p>Obrigado{% if name %}, {{ name }}{% endif %}! Ajudaste-me imenso nesta busca!</p>
     <p>O armário abriu com o código que disseste! Lá dentro estava um postal com a inscrição:</p>
     <p>"PARABÉNS! CONSEGUISTE. </p>
     <p>ISTO É UM JOGO! VOLTA A DEIXAR TUDO COMO ENCONTRASTE PARA QUE OUTROS SE POSSAM DIVERTIR TAMBÉM!"</p>

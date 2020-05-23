@@ -2,7 +2,7 @@
 {% block title %}Passo 9{% endblock %}
 {% block content %}
     
-    <h1>Obrigado colega!</h1>
+    <h1>Obrigado{% if name %}, {{ name }}{% endif %}!</h1>
     <p>Dentro do cofre está um papel com um código morse. Ajuda-me!</p>
     <p><img src="/static/codigo-morse.jpg" alt="">
     <audio controls>
