@@ -1,7 +1,8 @@
-{% extends 'autenticar.html' %}
+{% extends 'base.html' %}
 {% block title %}Final{% endblock %}
-{% block content %}
-    
+{% block logout %}
+
+    <a href="/logout"><button type="button" class="btn btn-danger" style="float:right;">Terminar</button></a>
     <h1>A descoberta</h1>
     <p>Obrigado{% if name %}, {{ name }}{% endif %}! Ajudaste-me imenso nesta busca!</p>
     <p>O armário abriu com o código que disseste! Lá dentro estava um postal com a inscrição:</p>
