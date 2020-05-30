@@ -1,11 +1,13 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Início{% endblock %}
 {% block content %}
     
-    <h1><img src="/static/Caça ao tesouro icone.jpg" alt="" width=80 height=60> Caça ao Tesouro Virtual</h1>
-    <h2>Bem vindos à caça ao tesouro virtual!!!🔎</h2>
-    <div style="color: rgb(255, 25, 9);">
-        <h3>Para fazer esta caça ao tesouro virtual usem preferencialmente o Google Chroome  (não pode ser o Internet Explorer). </h3>
+<div classe="dourado"><h1><img src="/static/Caça ao tesouro icone.jpg" alt="" width=80 height=60>   Caça ao Tesouro Virtual</h1></div>
+
+    <h2>Bem-vindo à caça ao tesouro virtual{% if name %}, {{ name }}{% endif %}!!!🔎</h2>
+
+    <div class="red">
+        <h3>Para fazer esta caça ao tesouro virtual usem preferencialmente o Google Chroome  (não pode ser o Internet Explorer).</h3>
         <h3>Caso errem façam "retroceder" no browser.</h3>
     </div>
     <p>----</p>
@@ -13,8 +15,7 @@
     <h4>Acho que me vai levar a um tesouro escondido!</h4>
     <h4>Quem escondeu o tesouro deixou pistas muito difíceis de decifrar, para só os investigadores mais astutos o descobrirem.</h4>
     <h4>Ajudas-me?</h4>
-    <div style="color: rgb(255, 230, 1);">
-    <p>Estão prontos? Cliquem em baixo para iniciar.</p>
-    </div>
-    <a href="/inicio"><button>▶Iniciar</button></a>
+    <b>Estão prontos? Cliquem em baixo para iniciar.</b>
+    <p></p>
+    <p><a href="/inicio"><button type="button" class="btn btn-warning">▶Iniciar</button></a></p>
 {% endblock %}

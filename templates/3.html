@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Passo 3{% endblock %}
 {% block content %}
     
@@ -15,16 +15,11 @@
     <p>Tem também um armário com um cadeado de 3 dígitos!</p>
     <p>O que querem dizer com estes números? Será que estes números têm alguma ligação entre si? Preciso da tua ajuda!</p>
     <p></p>
-    <a href="/110"><button>110</button></a>
-    <p></p>
-    <a href="/120"><button>120</button></a>
-    <p></p>
-    <a href="/440"><button>440</button></a>
-    <p></p>
-    <a href="/180"><button>180</button></a>
-    <p></p>
-    <a href="/500"><button>500</button></a>
-    <p></p>
-    <a href="/530"><button>530</button></a>
+    <a href="/110"><button type="button" class="btn btn-dark">110</button></a>
+    <a href="/120"><button type="button" class="btn btn-secondary">120</button></a>
+    <a href="/440"><button type="button" class="btn btn-primary">440</button></a>
+    <a href="/180"><button type="button" class="btn btn-success">180</button></a>
+    <a href="/500"><button type="button" class="btn btn-warning">500</button></a>
+    <a href="/530"><button type="button" class="btn btn-danger">530</button></a>
     <p></p>
 {% endblock %}

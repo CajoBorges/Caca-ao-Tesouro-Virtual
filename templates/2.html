@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Passo 2{% endblock %}
 {% block content %}
     
@@ -6,18 +6,14 @@
     <p>Agora que entramos em casa encontrei duas portas. Na porta da esquerda diz WC. A da direita está trancada com um cadeado de 3 dígitos.</p>
     <p>Entrei na porta da esquerda e vi uma sanita. Na parede tinha frases escritas. Vejam:</p>
     <img src="/static/Frases WC passo 2.png" alt="">
+    <p></p>
     <p>Será que isto nos leva ao código do cadeado? Ajuda-me!</p>
     <p></p>
-    <a href="/568"><button>568</button></a>
-    <p></p>
-    <a href="/359"><button>359</button></a>
-    <p></p>
-    <a href="/937"><button>937</button></a>
-    <p></p>
-    <a href="/539"><button>539</button></a>
-    <p></p>
-    <a href="/953"><button>953</button></a>
-    <p></p>
-    <a href="/935"><button>935</button></a>
+    <a href="/568"><button type="button" class="btn btn-dark">568</button></a>
+    <a href="/359"><button type="button" class="btn btn-secondary">359</button></a>
+    <a href="/937"><button type="button" class="btn btn-primary">937</button></a>
+    <a href="/539"><button type="button" class="btn btn-success">539</button></a>
+    <a href="/953"><button type="button" class="btn btn-warning">953</button></a>
+    <a href="/935"><button type="button" class="btn btn-danger">935</button></a>
     <p></p>
 {% endblock %}

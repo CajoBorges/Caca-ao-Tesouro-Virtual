@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Passo 7{% endblock %}
 {% block content %}
     
@@ -13,13 +13,11 @@
     <p>O fio verde é a seguir ao fio roxo.</p>
     <p>Ajuda-me{% if name %}, {{ name }}{% endif %}! Qual será a ordem correta?</p>
     <p></p>
-    <a href="/vralbva"><button>Vermelho, roxo, azul, lilás, branco, verde, amarelo</button></a>
+    <a href="/vralbva"><button type="button" class="btn btn-dark">Vermelho, roxo, azul, lilás, branco, verde, amarelo</button></a>
+    <a href="/vaavlrb"><button type="button" class="btn btn-secondary">Vermelho, amarelo, azul, verde, lilás, roxo, branco</button></a>
+    <a href="/arvblav"><button type="button" class="btn btn-primary">Amarelo, Roxo, Verde, Branco, Lilás, azul, Vermelho</button></a>
     <p></p>
-    <a href="/vaavlrb"><button>Vermelho, amarelo, azul, verde, lilás, roxo, branco</button></a>
+    <a href="/varvbla"><button type="button" class="btn btn-success">Vermelho, amarelo, roxo, verde, branco, lilás, azul</button></a>
+    <a href="/avrlbav"><button type="button" class="btn btn-warning">Amarelo, verde, roxo, lilás, branco, azul, vermelho</button></a>
     <p></p>
-    <a href="/arvblav"><button>Amarelo, Roxo, Verde, Branco, Lilás, azul, Vermelho</button></a>
-    <p></p>
-    <a href="/varvbla"><button>Vermelho, amarelo, roxo, verde, branco, lilás, azul</button></a>
-    <p></p>
-    <a href="/avrlbav"><button>Amarelo, verde, roxo, lilás, branco, azul, vermelho</button></a>
 {% endblock %}

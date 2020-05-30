@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Passo 5{% endblock %}
 {% block content %}
     
@@ -6,13 +6,10 @@
     <p>Dentro do cofre estava uma PEN. Abri no computador e tinha um ficheiro PDF bloqueado com uma Palavra-Passe. No cofre estava escrito:</p>
     <img src="/static/passo 5.png" alt="">
     <p>O que será que quer dizer isto? Preciso da tua ajuda!</p>
-    <a href="/sapos"><button>sapos</button></a>
+    <a href="/sapos"><button type="button" class="btn btn-dark">sapos</button></a>
+    <a href="/sapos_"><button type="button" class="btn btn-secondary">sapos🔄</button></a>
+    <a href="/sopas"><button type="button" class="btn btn-primary">sopas</button></a>
+    <a href="/passo"><button type="button" class="btn btn-success">Passo</button></a>
+    <a href="/password"><button type="button" class="btn btn-warning">Password</button></a>
     <p></p>
-    <a href="/sapos_"><button>sapos🔄</button></a>
-    <p></p>
-    <a href="/sopas"><button>sopas</button></a>
-    <p></p>
-    <a href="/passo"><button>Passo</button></a>
-    <p></p>
-    <a href="/password"><button>Password</button></a>
 {% endblock %}

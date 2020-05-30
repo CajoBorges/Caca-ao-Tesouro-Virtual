@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Passo 6{% endblock %}
 {% block content %}
     
@@ -9,16 +9,11 @@
     <p><img src="/static/passo 6.png" alt=""></p>
     <p></p>
     <p>Ajuda-me{% if name %}, {{ name }}{% endif %}! Qual é o código?</p>
-    <a href="/520"><button>520</button></a>
-    <p></p>
-    <a href="/140"><button>140</button></a>
-    <p></p>
-    <a href="/145"><button>145</button></a>
-    <p></p>
-    <a href="/555"><button>555</button></a>
-    <p></p>
-    <a href="/620"><button>620</button></a>
-    <p></p>
-    <a href="/220"><button>220</button></a>
+    <a href="/520"><button type="button" class="btn btn-dark">520</button></a>
+    <a href="/140"><button type="button" class="btn btn-secondary">140</button></a>
+    <a href="/145"><button type="button" class="btn btn-primary">145</button></a>
+    <a href="/555"><button type="button" class="btn btn-success">555</button></a>
+    <a href="/620"><button type="button" class="btn btn-warning">620</button></a>
+    <a href="/220"><button type="button" class="btn btn-danger">220</button></a>
     <p></p>
 {% endblock %}

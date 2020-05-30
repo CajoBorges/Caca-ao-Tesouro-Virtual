@@ -1,12 +1,30 @@
-body {
-    background-color: #0295f7;
+#elemento { 
+    margin-top: 15px; 
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 35px;
 }
 
-h1 {
-    color: rgb(207, 207, 3)
+body {
+    background-color: #7ecbff;
+}
+
+.dourado {
+    color: rgb(177, 174, 1)
 }
 
 h2 {
-    color: rgb(0, 0, 0)
+    color: rgb(53, 109, 1)
 }
+.red {
+    color: rgb(255, 25, 9)
+}
+.123 {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+}
+
 

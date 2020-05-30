@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'autenticar.html' %}
 {% block title %}Passo 1{% endblock %}
 {% block content %}
     
@@ -7,35 +7,33 @@
     <p>Mais à frente tinha outra porta de ferro presa por um cadeado de 3 dígitos. No chão estavam 3 CDs e na porta estava colado um poster com uma imagem de uma prateleira.</p>
     <p>Não consigo decifrar. Preciso da tua ajuda!</p>
     <img src="/static/cadeado passo 1.png" alt="">
-    <p>   </p>
+    <p></p>
     <p>Disco 1</p>
     <audio controls>
         <source src="/static/passo1_1.mp3" type="audio/mpeg">
           
     </audio>
+    <p></p>
     <p>Disco 2</p>
     <audio controls>
         <source src="/static/passo1_2.mp3" type="audio/mpeg">
           
     </audio>
+    <p></p>
     <p>Disco 3</p>
     <audio controls>
         <source src="/static/passo1_3.mp3" type="audio/mpeg">
           
     </audio>
+    <p></p>
     <p><img src="/static/Prateleira.png" alt=""></p>
     
     <p>Qual é o código?</p>
-    <a href="/564"><button>564</button></a>
-    <p></p>
-    <a href="/645"><button>645</button></a>
-    <p></p>
-    <a href="/946"><button>946</button></a>
-    <p></p>
-    <a href="/695"><button>695</button></a>
-    <p></p>
-    <a href="/964"><button>964</button></a>
-    <p></p>
-    <a href="/659"><button>659</button></a>
+    <a href="/564"><button type="button" class="btn btn-dark">564</button></a>
+    <a href="/645"><button type="button" class="btn btn-secondary">645</button></a>
+    <a href="/946"><button type="button" class="btn btn-primary">946</button></a>
+    <a href="/695"><button type="button" class="btn btn-success">695</button></a>
+    <a href="/964"><button type="button" class="btn btn-warning">964</button></a>
+    <a href="/659"><button type="button" class="btn btn-danger">659</button></a>
     <p></p>
 {% endblock %}

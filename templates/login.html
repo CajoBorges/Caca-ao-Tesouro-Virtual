@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}Login{% endblock %}
-{% block content %}
+{% block dentro %}
 
 <form action="/login" method="POST">
-	<label for="name">Nome:</label><br>
+	<label for="name">Introduz o teu nome:</label><br>
 	<input type="text" id="name" name="name" value=""><br>
-	<input type="submit" value="Submit">
+	<p></p>
+	<p><input type="submit" value="Avançar »" type="button" class="btn btn-success"></p>
 </form>
 
 {% endblock %}
