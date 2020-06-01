@@ -1,8 +1,5 @@
-#elemento { 
-    margin-top: 15px; 
-    margin-right: 10px;
-    margin-bottom: 25px;
-    margin-left: 35px;
+.body { 
+    margin: 10px;
 }
 
 body {
@@ -19,12 +16,3 @@ h2 {
 .red {
     color: rgb(255, 25, 9)
 }
-.123 {
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-    padding: 10px;
-    border: 10px;
-}
-
-

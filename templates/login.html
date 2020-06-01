@@ -2,11 +2,12 @@
 {% block title %}Login{% endblock %}
 {% block dentro %}
 
+<div class="mx-auto" style="width: 200px; margin-top: 250px;">
 <form action="/login" method="POST">
 	<label for="name">Introduz o teu nome:</label><br>
 	<input type="text" id="name" name="name" value=""><br>
 	<p></p>
 	<p><input type="submit" value="Avançar »" type="button" class="btn btn-success"></p>
 </form>
-
+</div>
 {% endblock %}
