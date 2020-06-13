@@ -1,21 +1,26 @@
 {% extends 'autenticar.html' %}
 {% block title %}Passo 9{% endblock %}
 {% block content %}
-    
-    <h1>Obrigado{% if name %}, {{ name }}{% endif %}!</h1>
-    <p>Dentro do cofre está um papel com um código morse. Ajuda-me!</p>
-    <p><img src="/static/codigo-morse.jpg" alt="">
-    <audio controls>
-        <source src="/static/códigomorsepasso9_lento.mp3" type="audio/mpeg">
-              
-    </audio></p>
-    <p>Qual é o código?</p>
-    <p></p>
-    <a href="/340"><button type="button" class="btn btn-dark">340</button></a>
-    <a href="/880"><button type="button" class="btn btn-secondary">880</button></a>
-    <a href="/345"><button type="button" class="btn btn-primary">345</button></a>
-    <a href="/op4"><button type="button" class="btn btn-success">145</button></a>
-    <a href="/845"><button type="button" class="btn btn-warning">845</button></a>
-    <a href="/240"><button type="button" class="btn btn-danger">240</button></a>
-    <p></p>
+
+<h1>Obrigado{% if name %}, {{ name }}{% endif %}!</h1>
+<p>Dentro do cofre está um papel com um código morse. Ajuda-me!</p>
+<div class="row my-4">
+    <div class="mx-auto">
+        <p><img src="/static/codigo-morse.jpg" alt="">
+            <audio controls>
+                <source src="/static/códigomorsepasso9_lento.mp3" type="audio/mpeg">
+
+            </audio></p>
+    </div>
+</div>
+
+<p>Qual é o código?</p>
+<p></p>
+<a href="/340"><button type="button" class="btn btn-dark">340</button></a>
+<a href="/880"><button type="button" class="btn btn-secondary">880</button></a>
+<a href="/345"><button type="button" class="btn btn-primary">345</button></a>
+<a href="/op4"><button type="button" class="btn btn-success">145</button></a>
+<a href="/845"><button type="button" class="btn btn-warning">845</button></a>
+<a href="/240"><button type="button" class="btn btn-danger">240</button></a>
+<p></p>
 {% endblock %}

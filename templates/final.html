@@ -2,14 +2,22 @@
 {% block title %}Final{% endblock %}
 {% block logout %}
 
-    <a href="/logout"><button type="button" class="btn btn-danger" style="float:right;">Terminar</button></a>
-    <h1>A descoberta</h1>
-    <p>Obrigado{% if name %}, {{ name }}{% endif %}! Ajudaste-me imenso nesta busca!</p>
-    <p>O armário abriu com o código que disseste! Lá dentro estava um postal com a inscrição:</p>
-    <p>"PARABÉNS! CONSEGUISTE. </p>
-    <p>ISTO É UM JOGO! VOLTA A DEIXAR TUDO COMO ENCONTRASTE PARA QUE OUTROS SE POSSAM DIVERTIR TAMBÉM!"</p>
-    <p>Ups, parece que o tesouro era "pura diversão" 😄</p>  
-    <p>Espero que te tenhas divertido tanto quanto eu!</p>
-    <img src="/static/2 foguetes.png" alt="">
-    <p></p>
+<a href="/logout"><button type="button" class="btn btn-danger" style="float:right;">Terminar</button></a>
+<h1>A descoberta</h1>
+<p>Obrigado{% if name %}, {{ name }}{% endif %}! Ajudaste-me imenso nesta busca!</p>
+<p>O armário abriu com o código que disseste! Lá dentro estava um postal com a inscrição:</p>
+<div class="row my-4">
+    <div class="mx-auto">
+        <p>"PARABÉNS! CONSEGUISTE. </p>
+        <p>ISTO É UM JOGO! VOLTA A DEIXAR TUDO COMO ENCONTRASTE PARA QUE OUTROS SE POSSAM DIVERTIR TAMBÉM!"</p>
+    </div>
+</div>
+<p>Ups, parece que o tesouro era "pura diversão" 😄</p>
+<p>Espero que te tenhas divertido tanto quanto eu!</p>
+<div class="row my-4">
+    <div class="mx-auto">
+        <img src="/static/2 foguetes.png" alt="">
+    </div>
+</div>
+<p></p>
 {% endblock %}

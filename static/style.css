@@ -1,9 +1,6 @@
-.body { 
-    margin: 10px;
-}
-
 body {
     background-color: #7ecbff;
+    margin: 10px;
 }
 
 .dourado {
@@ -15,4 +12,12 @@ h2 {
 }
 .red {
     color: rgb(255, 25, 9)
+}
+
+.text-size1 {
+    font-size: 130%;
+}
+
+.text-size2 {
+    font-size: 300%;
 }

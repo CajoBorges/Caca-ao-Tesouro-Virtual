@@ -1,19 +1,26 @@
 {% extends 'autenticar.html' %}
 {% block title %}Passo 6{% endblock %}
 {% block content %}
-    
-    <h1>Obrigado{% if name %}, {{ name }}{% endif %}!</h1>
-    <p>No PDF estava escrito uma morada:</p>
-    <p>Rua das Flores, nº49, Portugal</p>
-    <p>Fomos lá procurar e encontrámos mais uma casa abandonada. Passámos o portão de ferro muito enferrujado e vimos uma porta com um cadeado de 3 dígitos. Na parede estava um autocolante. <a href="https://www.google.com/" target="_blank" >O que significará? </a></p>
-    <p><img src="/static/passo 6.png" alt=""></p>
-    <p></p>
-    <p>Ajuda-me{% if name %}, {{ name }}{% endif %}! Qual é o código?</p>
-    <a href="/520"><button type="button" class="btn btn-dark">520</button></a>
-    <a href="/140"><button type="button" class="btn btn-secondary">140</button></a>
-    <a href="/145"><button type="button" class="btn btn-primary">145</button></a>
-    <a href="/555"><button type="button" class="btn btn-success">555</button></a>
-    <a href="/620"><button type="button" class="btn btn-warning">620</button></a>
-    <a href="/220"><button type="button" class="btn btn-danger">220</button></a>
-    <p></p>
+
+<h1>Obrigado{% if name %}, {{ name }}{% endif %}!</h1>
+<p>No PDF estava escrito uma morada:</p>
+<p>Rua das Flores, nº49, Portugal</p>
+<p>Fomos lá procurar e encontrámos mais uma casa abandonada. Passámos o portão de ferro muito enferrujado e vimos uma
+    porta com um cadeado de 3 dígitos. Na parede estava um autocolante. <a href="https://www.google.com/"
+        target="_blank">O que significará? </a></p>
+<div class="row my-4">
+    <div class="mx-auto">
+        <img src="/static/passo 6.png" alt="">
+    </div>
+</div>
+
+<p></p>
+<p>Ajuda-me{% if name %}, {{ name }}{% endif %}! Qual é o código?</p>
+<a href="/520"><button type="button" class="btn btn-dark">520</button></a>
+<a href="/140"><button type="button" class="btn btn-secondary">140</button></a>
+<a href="/145"><button type="button" class="btn btn-primary">145</button></a>
+<a href="/555"><button type="button" class="btn btn-success">555</button></a>
+<a href="/620"><button type="button" class="btn btn-warning">620</button></a>
+<a href="/220"><button type="button" class="btn btn-danger">220</button></a>
+<p></p>
 {% endblock %}

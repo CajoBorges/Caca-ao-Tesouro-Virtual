@@ -1,17 +1,21 @@
 {% extends 'autenticar.html' %}
 {% block title %}Passo 8{% endblock %}
 {% block content %}
-    
-    <h1>Obrigado{% if name %}, {{ name }}{% endif %}! Estás a ajudar-me imenso!</h1>
-    <p>A porta da esquerda abriu-se. Lá dentro estava uma carta que não consegui ler e um cofre de 4 dígitos.</p>
-    <img src="/static/carta que n se le.png" alt="">
-    <p>Ajuda-me. Qual é o código?</p>
-    <p></p>
-    <a href="/1550"><button type="button" class="btn btn-dark">1 550</button></a>
-    <a href="/8650"><button type="button" class="btn btn-secondary">8 650</button></a>
-    <a href="/9450"><button type="button" class="btn btn-primary">9 450</button></a>
-    <a href="/8450"><button type="button" class="btn btn-success">8 450</button></a>
-    <a href="/7650"><button type="button" class="btn btn-warning">7 650</button></a>
-    <a href="/1650"><button type="button" class="btn btn-danger">1 650</button></a>
-    <p></p>
+
+<h1>Obrigado{% if name %}, {{ name }}{% endif %}! Estás a ajudar-me imenso!</h1>
+<p>A porta da esquerda abriu-se. Lá dentro estava uma carta que não consegui ler e um cofre de 4 dígitos.</p>
+<div class="row my-4">
+    <div class="mx-auto">
+        <img src="/static/carta que n se le.png" alt="">
+    </div>
+</div>
+<p>Ajuda-me. Qual é o código?</p>
+<p></p>
+<a href="/1550"><button type="button" class="btn btn-dark">1 550</button></a>
+<a href="/8650"><button type="button" class="btn btn-secondary">8 650</button></a>
+<a href="/9450"><button type="button" class="btn btn-primary">9 450</button></a>
+<a href="/8450"><button type="button" class="btn btn-success">8 450</button></a>
+<a href="/7650"><button type="button" class="btn btn-warning">7 650</button></a>
+<a href="/1650"><button type="button" class="btn btn-danger">1 650</button></a>
+<p></p>
 {% endblock %}
